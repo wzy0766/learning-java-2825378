@@ -6,9 +6,9 @@ public class Main {
 
     public static void main(String args[]) {
         String question = "What is the result of one plus one?";
-        String choiceOne = "Zero";
-        String choiceTwo = "One";
-        String choiceThree = "Two";
+        String choiceOne = "zero";
+        String choiceTwo = "one";
+        String choiceThree = "two";
 
         String correctAnswer = choiceThree;
 
@@ -24,7 +24,7 @@ public class Main {
 
         // If the user's input matches the correctAnswer...
         // then the user is correct and we want to print out a congrats message to the user.
-        if (userinput.equals(correctAnswer)) {
+        if (correctAnswer.equals(userinput.toLowerCase())) {
             System.out.println("You are correct! ");
         }
 
