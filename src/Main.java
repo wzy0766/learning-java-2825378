@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import org.graalvm.compiler.asm.aarch64.AArch64Assembler.SystemRegister;
-
 public class Main {
 
     public static void main(String args[]) {
